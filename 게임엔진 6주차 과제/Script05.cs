@@ -8,7 +8,11 @@ public class Script05 : MonoBehaviour
     public int num;
     int numsum(int num)
     {
-        int sum = num*(num+1)/2;
+        int sum = 0;
+        for(int i = 1; i<=num; i++)
+        {
+            sum += i;
+        }
         return sum;
     }
     // Start is called before the first frame update
