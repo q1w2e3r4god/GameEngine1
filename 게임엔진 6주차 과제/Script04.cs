@@ -11,15 +11,15 @@ public class Script04 : MonoBehaviour
     {
         if (score >= 80)
         {
-            grade = "¿ì¼ö";
+            grade = "ìš°ìˆ˜";
         }
         else if (score >= 60)
         {
-            grade = "º¸Åë";
+            grade = "ë³´í†µ";
         }
         else
         {
-            grade = "¹ÌÈí";
+            grade = "ë¯¸í¡";
         }
 
         return grade;
